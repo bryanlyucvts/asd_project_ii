@@ -20,11 +20,18 @@
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="223dp"
+        android:layout_height="237dp"
         android:ems="10"
         android:inputType="text"
         android:text="HEY"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="315dp" />
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dtransit" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
