@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="1dp"
     tools:showIn="@layout/app_bar_main">
 
     <fragment
@@ -13,6 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:defaultNavHost="true"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -23,15 +26,18 @@
         android:layout_width="223dp"
         android:layout_height="237dp"
         android:ems="10"
+        android:fontFamily="sans-serif-medium"
         android:inputType="text"
-        android:text="HEY"
-        tools:layout_editor_absoluteX="94dp"
+        android:text="DPortfolio"
+        tools:layout_editor_absoluteX="153dp"
         tools:layout_editor_absoluteY="219dp" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/dtransit" />
+        app:srcCompat="@drawable/dtransit"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="137dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
