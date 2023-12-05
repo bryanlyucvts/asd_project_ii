@@ -29,8 +29,8 @@
         android:fontFamily="sans-serif-medium"
         android:inputType="text"
         android:text="DPortfolio"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="219dp" />
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="394dp" />
 
     <ImageView
         android:id="@+id/imageView3"
