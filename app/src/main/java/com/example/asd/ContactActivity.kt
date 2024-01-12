@@ -18,6 +18,7 @@ import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import android.net.Uri
 
 class ContactActivity : AppCompatActivity() {
 
@@ -28,6 +29,18 @@ class ContactActivity : AppCompatActivity() {
         val backButton = findViewById<ImageButton>(R.id.backButton)
         backButton.setOnClickListener {
             intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        val callButton = findViewById<Button>(R.id.callButton)
+        callButton.setOnClickListener {
+            intent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "9085126134"))
+            startActivity(intent)
+        }
+
+        val websiteButton = findViewById<Button>(R.id.websiteButton)
+        websiteButton.setOnClickListener {
+            intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.example.com"))
             startActivity(intent)
         }
     }
