@@ -40,7 +40,13 @@ class ContactActivity : AppCompatActivity() {
 
         val websiteButton = findViewById<Button>(R.id.websiteButton)
         websiteButton.setOnClickListener {
-            intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.example.com"))
+            intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/@DTransit?si=F18XgwwEDYP_dzly"))
+            startActivity(intent)
+        }
+
+        val officeButton = findViewById<Button>(R.id.officeButton)
+        officeButton.setOnClickListener {
+            intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://maps.app.goo.gl/BEHqG1WB35Qkb5RQ7"))
             startActivity(intent)
         }
     }
