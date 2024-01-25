@@ -49,4 +49,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.022" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"
+        android:scrollbars="vertical"
+        android:layout_marginTop="55dp"
+        tools:listitem="@layout/list_item"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

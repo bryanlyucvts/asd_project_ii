@@ -56,4 +56,45 @@
     <string name="title_activity_Project">Project</string>
     <string name="title_activity_project">project</string>
     <string name="title_activity_contact">contact</string>
+
+    <string name="pastaIngredients">Microsoft, New York, NY</string>
+    <string name="pastaDesc">Under the guidance of esteemed ceramic technician Bill Gates, a team of 5 people beside myself underwent a lengthy exploration in the Hudson River, studying the effects of Ceramic Technician practices in a rough environment.</string>
+    //maggi
+    <string name="maggiIngredients">Microsoft, New York, NY</string>
+    <string name="maggieDesc">An in-depth research project that explored intricate, revolutionary techniques that remodeled the approach of ceramic technicians towards porcelain turbulence and maintenance, in coordination with a team of highly-skilled researchers at the University of the United States Virgin Islands.</string>
+    //cake
+    <string name="cakeIngredients">Whole Foods, New York, NY</string>
+    <string name="cakeDesc">Developed a scheduling system that rethought customary nutrition relocation techniques, alongside an established, experienced team of relocaters from the Whole Foods of the City of New York.</string>
+    //pancake
+    <string name="pancakeIngredients">GoAmerica, Hackensack, NJ</string>
+    <string name="pancakeDesc">Add one and half cup of water
+Add maggi noodles and boil it
+Add the maggi masala on to it
+\nWait for 2 mins
+\nMaggi is ready!</string>
+    //pizza
+    <string name="pizzaIngredients">Microsoft, New York, NY</string>
+    <string name="pizzaDesc">Add one and half cup of water
+Add maggi noodles and boil it
+Add the maggi masala on to it
+\nWait for 2 mins
+\nMaggi is ready!</string>
+    //burgers
+    <string name="burgerIngredients">Maggi Noodles
+\nWater
+\nMaggi Masala</string>
+    <string name="burgerDesc">Add one and half cup of water
+\nAdd maggi noodles and boil it
+\nAdd the maggi masala on to it
+\nWait for 2 mins
+\nMaggi is ready!</string>
+    //fries
+    <string name="friesIngredients">Maggi Noodles
+\nWater
+\nMaggi Masala</string>
+    <string name="friesDesc">Add one and half cup of water
+\nAdd maggi noodles and boil it
+\nAdd the maggi masala on to it
+\nWait for 2 mins
+\nMaggi is ready!</string>
 </resources>
